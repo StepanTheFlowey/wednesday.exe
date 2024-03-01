@@ -20,9 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="wednesday.h">
-      <Filter>Headers</Filter>
-    </ClInclude>
     <ClInclude Include="resources.h">
       <Filter>Headers</Filter>
     </ClInclude>

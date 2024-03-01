@@ -206,7 +206,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
       HGDIOBJ         oldBitmap;
 
       HBRUSH brush = CreateSolidBrush(hwndColors[hwnd]);
-      SetClassLongPtrW(hwnd, GCLP_HBRBACKGROUND, (LONG) brush);
+      SetClassLongPtrW(hwnd, GCLP_HBRBACKGROUND, (LONG_PTR) brush);
 
       hdc = BeginPaint(hwnd, &ps);
 
